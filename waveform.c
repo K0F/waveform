@@ -25,7 +25,7 @@
 #include <png.h>
 
 #define WIDTH 1920
-#define HEIGHT 1050  // Twice the height to accommodate both channels
+#define HEIGHT 1080 
 
 void save_png(const char *filename, unsigned char data[2][WIDTH]) {
     FILE *fp = fopen(filename, "wb");
